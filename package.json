@@ -13,7 +13,7 @@
   "license": "Apache-2.0",
   "author": "Sachanime",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,6 +32,7 @@
     "electron": "^41.0.3"
   },
   "dependencies": {
+    "bulma": "^1.0.4",
     "electron-squirrel-startup": "^1.0.1"
   }
 }
