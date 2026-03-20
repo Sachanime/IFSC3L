@@ -1,0 +1,20 @@
+{
+  "name": "ifsc3l",
+  "version": "1.0.0",
+  "description": "IFSCL Legacy Launcher is a launcher for olds version of IFSCL",
+  "homepage": "https://github.com/Sachanime/IFSC3L#readme",
+  "bugs": {
+    "url": "https://github.com/Sachanime/IFSC3L/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sachanime/IFSC3L.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Sachanime",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
