@@ -1,16 +1,14 @@
-const readline = require("readline");
+const { app, BrowserWindow } = require('electron')
 
-console.log("IFSCL Legacy Launcher")
-console.log("\nAppuez sur Entrée pour fermer ce programme...");
+function createWindow () {
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
+    const win = new BrowserWindow({
+        width: 800,
+        height: 600
+    })
 
-rl.on('line', () => {
+    win.loadFile('index.html')
 
-    rl.close()
-    process.exit(0)
+}
 
-})
+app.whenReady().then(createWindow)
